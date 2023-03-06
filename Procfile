@@ -1,1 +1,1 @@
-web: java -jar target/mytodo-1.0-SNAPSHOT.jar
+web: java -jar /mytodo-1.0-SNAPSHOT.jar
