@@ -123,9 +123,7 @@
     "lit": "2.6.1",
     "proj4": "2.8.1"
   },
-  "scripts": {
-    "prebuild": "npm install"
-  },
+
   "devDependencies": {
     "@rollup/plugin-replace": "3.1.0",
     "@rollup/pluginutils": "4.1.0",
