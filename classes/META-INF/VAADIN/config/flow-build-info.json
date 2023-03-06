@@ -1,0 +1,18 @@
+{
+  "productionMode": false,
+  "useDeprecatedV14Bootstrapping": false,
+  "eagerServerLoad": false,
+  "npmFolder": "/Users/navraj/Downloads/my-todo",
+  "node.version": "v18.13.0",
+  "node.download.root": "https://nodejs.org/dist/",
+  "generatedFolder": "/Users/navraj/Downloads/my-todo/target/frontend",
+  "frontendFolder": "/Users/navraj/Downloads/my-todo/frontend",
+  "connect.javaSourceFolder": "/Users/navraj/Downloads/my-todo/src/main/java",
+  "javaResourceFolder": "/Users/navraj/Downloads/my-todo/src/main/resources",
+  "connect.applicationProperties": "/Users/navraj/Downloads/my-todo/src/main/resources/application.properties",
+  "connect.openApiFile": "/Users/navraj/Downloads/my-todo/target/generated-resources/openapi.json",
+  "project.frontend.generated": "/Users/navraj/Downloads/my-todo/frontend/generated",
+  "pnpm.enable": false,
+  "require.home.node": false,
+  "build.folder": "target"
+}
