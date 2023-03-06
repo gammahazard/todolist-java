@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "mytodo-1.0-SNAPSHOT.jar",
+        "use": "@vercel/java"
+      }
+    ],
+    "routes": [
+      { "src": "/.*", "dest": "/mytodo-1.0-SNAPSHOT.jar" }
+    ]
+  }

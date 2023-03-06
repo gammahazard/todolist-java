@@ -1,0 +1,88 @@
+@import url('line-awesome/dist/line-awesome/css/line-awesome.min.css');
+
+@font-face {
+  font-family: "beauty";
+  src: url("../../fonts/beauty.ttf");
+}
+#task-list {
+  max-height: calc(100vh - 400px);
+  overflow-y: auto;
+}
+body {
+  font-family:"beauty"
+}
+body[theme~="dark-mode"] {
+  background-color: #282227!important;
+  color: #17cd69;
+  width:100%;
+  height:auto;
+  /* other styles for the "mytodo" theme */
+}
+body[theme~="mytodo"] {
+background-color:rgb(19, 172, 103)!important;
+color:rgb(46, 8, 56);
+width:100%;
+height:auto;
+  /* other styles for the "mytodo" theme */
+}
+body[theme~="dark-mode"] h1 {
+  background-color:transparent;
+  color:rgb(74, 208, 12);
+    /* other styles for the "mytodo" theme */
+  }
+  body[theme~="mytodo"] span {
+color:darkblue;
+font-weight:bolder;
+      /* other styles for the "mytodo" theme */
+    }
+    body[theme~="dark-mode"] input {
+      background-color:transparent;
+      border:1px solid yellow;
+      border-radius:15%;
+      cursor:pointer;
+   color:rgb(70, 172, 19);
+        /* other styles for the "mytodo" theme */
+      }
+      body[theme~="dark-mode"] span {
+      color:yellow;
+          /* other styles for the "mytodo" theme */
+        }
+
+         body[theme~="mytodo"] #addbutton {
+          background-color:transparent;
+          border:1px solid black;
+          border-radius:10%;
+          cursor:pointer;
+                /* other styles for the "mytodo" theme */
+              }
+              .vaadin-button-container {
+                background-color:transparent;
+                cursor:pointer;
+              }
+              body[theme~="mytodo"] input {
+   color:yellow;
+   border:1px solid yellow;
+   border-radius:15%;
+                }
+                body[theme~="dark-mode"] label{
+                color:yellow;
+                               }
+                               body[theme~="mytodo"] label{
+                                color:black;
+                                               }
+
+                                               body[theme~="dark-mode"] vaadin-button {
+                                                color: yellow;
+                                                border:0.5px solid black;
+                                                border-radius:4px;
+                                               }
+                                               body[theme~="mytodo"] vaadin-button {
+                                             color:black;
+                                             border:0.5px solid yellow;
+                                             border-radius:4px;
+                                               }
+
+                                               #moonicon:hover {
+                                                zoom:1.25;
+                                               }
+                    
