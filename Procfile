@@ -1,1 +1,1 @@
-web: npm run build && java -jar ./mytodo-1.0-SNAPSHOT.jar
+web: java -jar ./mytodo-1.0-SNAPSHOT.jar
