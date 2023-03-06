@@ -1,7 +1,0 @@
-{
-  "version": 2,
-  "builds": [
-    { "src": "mytodo-1.0-SNAPSHOT.jar", "use": "@vercel/java", "command": "java -jar mytodo-1.0-SNAPSHOT.jar" }
-  ]
-
-}
