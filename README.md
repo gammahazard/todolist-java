@@ -1,6 +1,5 @@
 
-# Project Title
-
+# To do list
 To do list - created with Vaadin and Springboot
 
 
