@@ -151,6 +151,21 @@
                     <maxAttempts>240</maxAttempts>
                 </configuration>
             </plugin>
+        <!---->
+        <plugin>
+            <groupId>com.heroku.sdk</groupId>
+            <artifactId>heroku-maven-plugin</artifactId>
+            <version>3.0.7</version>
+            <configuration>
+
+                <appName>todolist-java</appName>
+            </configuration>
+        </plugin>
+
+        <!--
+            Take care of synchronizing java dependencies and imports in
+            package.json and main.js files.
+            It also creates webpack.config.js if not exists yet.
         -->
         <plugin>
             <groupId>com.vaadin</groupId>
